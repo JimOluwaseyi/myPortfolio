@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 5%;
+}
+
+h1 {
+  color: #fff;
+}
+
+.navBtn {
+  background: none;
+  border: none;
+}
+
+.navBtn > .fa-bars {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Section one */
+header {
+  background: #1c1a19;
+  background-image: url("images/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 90vh;
+}
+
+.about {
+  padding: 10rem 1rem 0;
+}
+
+h2 {
+  color: #ff6b00;
+  font-size: 2.5em;
+}
+
+.about > p {
+  color: #fff5e1;
+  font-size: 1.3rem;
+}
+
+.description {
+  padding: 5% 0 0 0;
+}
+
+.description > p {
+  color: #fff;
+  line-height: 1.2em;
+  font-size: 1.2rem;
+}
+
+.iconDiv {
+  padding-top: 1rem;
+}
+
+.iconDiv > img {
+  width: 10%;
+}
+
+/* Desktop */
+
+@media (min-width: 375px) {
+  body {
+    background: burlywood;
+  }
+}
