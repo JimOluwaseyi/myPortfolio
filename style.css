@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -28,26 +32,29 @@ h1 {
 }
 
 /* Section one */
-header {
+.sectionOne {
   background: #1c1a19;
   background-image: url("images/Illustration.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  height: 90vh;
+  height: 88vh;
 }
 
 .about {
-  padding: 10rem 1rem 0;
+  padding: 8rem 1.4rem 0;
 }
 
-h2 {
+ .about > h1{
   color: #ff6b00;
   font-size: 2.5em;
+  font-family: 'Crete Round', serif;
 }
 
 .about > p {
   color: #fff5e1;
   font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .description {
@@ -56,22 +63,28 @@ h2 {
 
 .description > p {
   color: #fff;
-  line-height: 1.2em;
-  font-size: 1.2rem;
+  line-height: 1.5em;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
 }
+
+
 
 .iconDiv {
   padding-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+}
+
+a{
+  text-decoration: none;
 }
 
 .iconDiv > img {
   width: 10%;
 }
 
-/* Desktop */
 
-@media (min-width: 375px) {
-  body {
-    background: burlywood;
-  }
-}
