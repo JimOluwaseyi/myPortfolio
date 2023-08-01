@@ -44,7 +44,7 @@ h1 {
   padding: 8rem 1.4rem 0;
 }
 
- .about > h1{
+.about > h1 {
   color: #ff6b00;
   font-size: 2.5em;
   font-family: 'Crete Round', serif;
@@ -54,7 +54,6 @@ h1 {
   color: #fff5e1;
   font-size: 1.3rem;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .description {
@@ -66,25 +65,19 @@ h1 {
   line-height: 1.5em;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-
 }
-
-
 
 .iconDiv {
   padding-top: 1rem;
   list-style-type: none;
   display: flex;
   align-items: center;
-
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 .iconDiv > img {
   width: 10%;
 }
-
-
