@@ -64,10 +64,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# Mobile Portfolio Design <a name="about-project"></a>
+# 📖 [My Portfolio] <a name="about-project"></a>
 
+> Describe your project in 1 or 2 sentences.
 
->Mobile Portfolio design is a project built with html and css
+**[My portfolio]** is a...
 
 ## 🛠 Built With  <a name="built-with"></a>
 1- HTML.
@@ -233,4 +234,3 @@ I would like to thank Gift Olukoju for her support.
 This project is [MIT](./LICENSE) licensed.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
