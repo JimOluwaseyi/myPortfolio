@@ -191,12 +191,15 @@ a {
 
 .card2Btn {
   background: #ff6b00;
-  width: 330px;
+  width: 327px;
   border: none;
   height: 50px;
   color: #fff;
   font-size: 17px;
   font-family: "Inter", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* ===== About section me ===== */
