@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 5%;
+}
+
+h1 {
+  color: #fff;
+}
+
+.navBtn {
+  background: none;
+  border: none;
+}
+
+.navBtn > .fa-bars {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Section one */
+.sectionOne {
+  background: #1c1a19;
+  background-image: url("images/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 88vh;
+}
+
+.about {
+  padding: 8rem 1.4rem 0;
+}
+
+.about > h1 {
+  color: #ff6b00;
+  font-size: 2.5em;
+  font-family: 'Crete Round', serif;
+}
+
+.about > p {
+  color: #fff5e1;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description {
+  padding: 5% 0 0 0;
+}
+
+.description > p {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.iconDiv {
+  padding-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.iconDiv > img {
+  width: 10%;
+}
