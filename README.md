@@ -1,5 +1,5 @@
-# myPortfolio
-<a name="readme-top"></a>
+
+<!-- <a name="readme-top"></a> -->
 
 <!--
 !!! IMPORTANT !!!
@@ -64,11 +64,9 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[My portfolio]** is a...
+ My portfolio is a Mobile website design with html and css.  
 
 ## 🛠 Built With  <a name="built-with"></a>
 1- HTML.
@@ -129,23 +127,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 
-Example commands:
+Run this commands:
 
 ```sh
-  cd my-folder
+  cd Myportfolio
   git clone https://github.com/JimOluwaseyi/myPortfolio.git
-```
-
-### Install
-
-Install this project with:
-
-
-Run this command:
-
-```sh
-  cd my-project
-  npm install
 ```
 
 
@@ -220,10 +206,6 @@ If you like this project just give a star ⭐️.
 
 
 I would like to thank Gift Olukoju for her support.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
