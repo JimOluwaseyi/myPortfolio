@@ -64,7 +64,7 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio <a name="about-project"></a>
+ <a name="about-project"></a>
 
  My portfolio is a Mobile website design with html and css.  
 
