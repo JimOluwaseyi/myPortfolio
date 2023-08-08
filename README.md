@@ -63,7 +63,8 @@ For more information on the importance of a professional README for your reposit
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
- <a name="about-project"></a>
+
+<a name="about-project"></a>
 
  My portfolio is a Mobile website design with html and css.  
 
@@ -211,3 +212,6 @@ I would like to thank Gift Olukoju for her support.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
