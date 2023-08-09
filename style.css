@@ -276,3 +276,74 @@ a {
   padding: 10px 0;
   font-family: "Inter", sans-serif;
 }
+
+/* ===== Form Section ===== */
+#form-heading {
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 50px 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+form {
+  padding: 0 40px;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-list > li {
+  list-style-type: none;
+}
+
+.input-border {
+  border-bottom: 1px solid #dbd8d7;
+  margin: 15px 0;
+}
+
+li > input,
+li > textarea {
+  border: none;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  width: 100%;
+}
+
+li > textarea {
+  background: #fbf8f7;
+  font-style: italic;
+  width: 100%;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.btn-div > button {
+  background: #ff6b00;
+  width: 120px;
+  height: 45px;
+  border: none;
+  color: #fff;
+}
+
+footer {
+  border-top: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.form-icon {
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  list-style-type: none;
+}
