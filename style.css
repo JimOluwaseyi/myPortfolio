@@ -264,14 +264,12 @@ a {
 
 .techImg {
   display: flex;
-  align-items: center;
   gap: 10px;
   list-style-type: none;
 }
 
 .techImg > li {
   font-size: 30px;
-  text-align: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -513,5 +511,66 @@ footer {
 
   .textCard {
     bottom: 5%;
+  }
+
+  /* ===== About me Section ===== */
+  .aboutpage {
+    background-image: url("images/illustration-about me@2x.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: 50%;
+  }
+
+  .aboutMe {
+    padding: 5px 90px;
+  }
+
+  .aboutMe > p {
+    width: 500px;
+    padding: 0 5px;
+  }
+
+  .techParent {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background: #1c1a19;
+  }
+
+  .technology {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .aboutList > li {
+    text-align: left;
+  }
+
+  /* ===== Form section ===== */
+  #formContainer {
+    display: flex;
+    gap: 10px;
+    padding: 70px 110px;
+  }
+
+  #form-heading {
+    padding: 30px 0;
+    text-align: left;
+    width: 400px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .btn-div {
+    display: block;
+  }
+
+  /* Footer Icons */
+  .form-icon {
+    flex-direction: row;
+    padding: 2px 0;
   }
 }
