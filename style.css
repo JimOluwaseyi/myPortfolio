@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
+  align-items: center;
   padding: 5%;
 }
 
@@ -32,6 +33,10 @@ h1 {
   font-size: 1.5rem;
 }
 
+.navList {
+  display: none;
+}
+
 /* Section one */
 .sectionOne {
   background: #1c1a19;
@@ -41,7 +46,7 @@ h1 {
   height: 88vh;
 }
 
-.about {
+.aboutParent {
   padding: 8rem 1.4rem 0;
 }
 
@@ -77,6 +82,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .iconDiv > img {
@@ -98,12 +104,12 @@ a {
   font-family: "Crete Round", serif;
 }
 
-#borderLine {
+.borderLine {
   border: 1px solid #212121;
   margin: 3rem 0 0 0;
 }
 
-.imgSection {
+.projectContainer-Mobile {
   display: grid;
   grid-template-columns: repeat(autofill, 1fr);
 }
@@ -151,6 +157,9 @@ a {
 }
 
 /* Card two */
+.projectContainer {
+  display: none;
+}
 
 .cardImg {
   margin-top: 5px;
@@ -243,7 +252,7 @@ a {
   margin-top: 120px;
 }
 
-/* ===== Technology section */
+/* ===== Technology section ===== */
 .technology {
   background: #1c1a19;
   color: #fff;
@@ -283,7 +292,7 @@ a {
   font-size: 32px;
   line-height: 44px;
   padding: 50px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 form {
@@ -308,7 +317,7 @@ li > input,
 li > textarea {
   border: none;
   padding: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   outline: none;
   width: 100%;
 }
@@ -346,4 +355,163 @@ footer {
   gap: 20px;
   font-size: 22px;
   list-style-type: none;
+}
+
+/* ===== Desktop Version ===== */
+
+@media (min-width: 768px) {
+  /* ===== Navbar Section ===== */
+  .navBar {
+    padding: 0 142px 0 130px;
+    align-items: center;
+    height: 72px;
+  }
+
+  .navBtn {
+    display: flex;
+  }
+
+  .navBtn > .fa-bars {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    color: #fff;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .navList > li {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* ===== Section One ===== */
+  .sectionOne {
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    height: 100vh;
+  }
+
+  .aboutParent {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 65px;
+    padding: 100px 20px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .about > h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .about > p {
+    font-size: 30px;
+  }
+
+  .iconDiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .description {
+    padding: 5px 0;
+  }
+
+  .description > p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 556px;
+    height: 123px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* ===== Work section ===== */
+
+  .work {
+    display: block;
+    padding: 120px 110px 60px 110px;
+  }
+
+  .midHeading {
+    position: relative;
+  }
+
+  .borderLine {
+    position: absolute;
+    left: 32%;
+    bottom: 35%;
+    width: 63%;
+  }
+
+  .cardOne {
+    display: flex;
+    gap: 24px;
+    padding: 0 110px;
+  }
+
+  .cardOne > img {
+    width: 400px;
+    height: 335px;
+  }
+
+  .imgText > h3 {
+    padding: 0 0 0.5em 0;
+  }
+
+  .imgText > p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 35px 15px 0;
+  }
+
+  .languages > li {
+    padding: 2% 4%;
+  }
+
+  #card1Btn {
+    height: 40px;
+    width: 110px;
+  }
+
+  .projectContainer-Mobile {
+    display: none;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 110px;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  .deskCardImg > img {
+    width: 327px;
+  }
+
+  .card2Btn {
+    bottom: 1px;
+  }
+
+  .imgBorder {
+    border: 1px solid black;
+  }
+
+  .textCard {
+    bottom: 5%;
+  }
 }
