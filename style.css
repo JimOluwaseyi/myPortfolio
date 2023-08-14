@@ -546,10 +546,6 @@ footer {
     bottom: 1px;
   }
 
-  .imgBorder > img {
-    border: 1px solid black;
-  }
-
   .textCard {
     bottom: 5%;
   }
@@ -558,6 +554,29 @@ footer {
     font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 500;
+  }
+
+  /* ===== Hover Style ===== */
+
+  .card .cardImg .textCard {
+    opacity: 1;
+  }
+
+  .card .cardImg:hover .textCard {
+    opacity: 0;
+  }
+
+  .card .cardImg .card2Btn {
+    display: none;
+  }
+
+  .card .cardImg:hover .card2Btn {
+    display: block;
+  }
+
+  .card .cardImg:hover .deskCardImg img {
+    content: url("images/Mask Group.png");
+    border: 1px solid black;
   }
 
   /* ===== About me Section ===== */
@@ -570,7 +589,6 @@ footer {
   }
 
   .aboutMe {
-    /* padding: 5px 90px; */
     padding: 80px 80px;
   }
 
