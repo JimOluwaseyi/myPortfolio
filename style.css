@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
+  align-items: center;
   padding: 5%;
 }
 
@@ -32,6 +33,10 @@ h1 {
   font-size: 1.5rem;
 }
 
+.navList {
+  display: none;
+}
+
 /* Section one */
 .sectionOne {
   background: #1c1a19;
@@ -41,7 +46,7 @@ h1 {
   height: 88vh;
 }
 
-.about {
+.aboutParent {
   padding: 8rem 1.4rem 0;
 }
 
@@ -77,6 +82,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .iconDiv > img {
@@ -98,12 +104,12 @@ a {
   font-family: "Crete Round", serif;
 }
 
-#borderLine {
+.borderLine {
   border: 1px solid #212121;
   margin: 3rem 0 0 0;
 }
 
-.imgSection {
+.projectContainer-Mobile {
   display: grid;
   grid-template-columns: repeat(autofill, 1fr);
 }
@@ -151,6 +157,9 @@ a {
 }
 
 /* Card two */
+.projectContainer {
+  display: none;
+}
 
 .cardImg {
   margin-top: 5px;
@@ -243,7 +252,7 @@ a {
   margin-top: 120px;
 }
 
-/* ===== Technology section */
+/* ===== Technology section ===== */
 .technology {
   background: #1c1a19;
   color: #fff;
@@ -255,14 +264,12 @@ a {
 
 .techImg {
   display: flex;
-  align-items: center;
   gap: 10px;
   list-style-type: none;
 }
 
 .techImg > li {
   font-size: 30px;
-  text-align: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -283,7 +290,7 @@ a {
   font-size: 32px;
   line-height: 44px;
   padding: 50px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 form {
@@ -308,7 +315,7 @@ li > input,
 li > textarea {
   border: none;
   padding: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   outline: none;
   width: 100%;
 }
@@ -346,4 +353,317 @@ footer {
   gap: 20px;
   font-size: 22px;
   list-style-type: none;
+}
+
+/* ===== Desktop Version ===== */
+
+@media (min-width: 768px) {
+  /* ===== Navbar Section ===== */
+  .navBar {
+    padding: 0 142px 0 142px;
+    align-items: center;
+    height: 72px;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .navBtn {
+    display: flex;
+  }
+
+  .navBtn > .fa-bars {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    color: #fff;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .navList > li {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* ===== Section One ===== */
+  .sectionOne {
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    height: 100vh;
+  }
+
+  .aboutParent {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 65px;
+    padding: 192px 20px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .about > h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: "Crete Round", serif;
+  }
+
+  .about > p {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .description {
+    padding: 5px 0;
+  }
+
+  .description > p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 470px;
+    height: 120px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .iconDiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* ===== Work section ===== */
+
+  .work {
+    display: block;
+    padding: 120px 110px 60px 110px;
+  }
+
+  .midHeading {
+    position: relative;
+  }
+
+  .borderLine {
+    position: absolute;
+    left: 32%;
+    bottom: 35%;
+    width: 63%;
+  }
+
+  .cardOne {
+    display: flex;
+    gap: 24px;
+    padding: 0 110px;
+    height: 448px;
+  }
+
+  .cardOne > img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .imgText {
+    width: 448px;
+    height: 348px;
+  }
+
+  .imgText > h3 {
+    padding: 0 0 0.5em 0;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Crete Round", serif;
+  }
+
+  .imgText > p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
+  .languages {
+    gap: 12px;
+  }
+
+  .languages > li {
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+  }
+
+  #card1Btn {
+    height: 48px;
+    width: 124px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+
+  .projectContainer-Mobile {
+    display: none;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 110px;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  .deskCardImg > img {
+    width: 327px;
+    height: 435px;
+  }
+
+  .textCard > h4 {
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .textCard > p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .card2Btn {
+    bottom: 1px;
+  }
+
+  .textCard {
+    bottom: 5%;
+  }
+
+  .projectLang > li {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* ===== Hover Style ===== */
+
+  .card .cardImg .textCard {
+    opacity: 1;
+  }
+
+  .card .cardImg:hover .textCard {
+    opacity: 0;
+  }
+
+  .card .cardImg .card2Btn {
+    display: none;
+  }
+
+  .card .cardImg:hover .card2Btn {
+    display: block;
+  }
+
+  .card .cardImg:hover .deskCardImg img {
+    content: url("images/Mask Group.png");
+    border: 1px solid black;
+  }
+
+  /* ===== About me Section ===== */
+  .aboutpage {
+    background-image: url("images/illustration-about me@2x.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: 50%;
+  }
+
+  .aboutMe {
+    padding: 80px 80px;
+  }
+
+  .aboutMe > h4 {
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .aboutMe > p {
+    width: 470px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+
+  .aboutMe > button {
+    width: 156px;
+    height: 48px;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+  }
+
+  #aboutBorder {
+    margin-top: 10px;
+  }
+
+  .techParent {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background: #1c1a19;
+  }
+
+  .technology {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .aboutList > li {
+    text-align: left;
+  }
+
+  /* ===== Form section ===== */
+  #formContainer {
+    display: flex;
+    gap: 10px;
+    padding: 70px 110px;
+  }
+
+  #form-heading {
+    padding: 30px 0;
+    text-align: left;
+    width: 400px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .btn-div {
+    display: block;
+  }
+
+  /* Footer Icons */
+  .form-icon {
+    flex-direction: row;
+    padding: 2px 0;
+  }
 }
