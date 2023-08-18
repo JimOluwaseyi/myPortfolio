@@ -19,8 +19,11 @@
   padding: 5%;
 }
 
-h1 {
+span {
   color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 
 .navBtn {
@@ -340,6 +343,10 @@ li > textarea {
   color: #fff;
 }
 
+label {
+  display: none;
+}
+
 footer {
   border-top: 1px solid #dfe1e6;
   display: flex;
@@ -365,7 +372,7 @@ footer {
     height: 72px;
   }
 
-  h1 {
+  span {
     font-size: 20px;
     font-family: "Inter", sans-serif;
   }
@@ -659,6 +666,10 @@ footer {
 
   .btn-div {
     display: block;
+  }
+
+  label {
+    display: none;
   }
 
   /* Footer Icons */
